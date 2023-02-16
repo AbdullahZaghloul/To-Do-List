@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">To Do List</string>
+    <string name="TaskName_text">Task Name</string>
+    <string name="TaskDescription_text">Task Description</string>
+    <string name="addTask_text">Add Task</string>
+    <string name="showAllTasks_text">Show All Tasks</string>
+    <string name="AllTasks_text">All Tasks</string>
+    <string name="TaskDescriptionShowAll_text">Task Description</string>
+    <string name="newTaskName_text">New Task Name</string>
+    <string name="newTaskDescription_text">New Task Description</string>
+    <string name="UpdateBtn_text">Update</string>
+    <string name="UpdateContext_text">Update</string>
+    <string name="DeleteContext_text">Delete</string>
+    <string name="Arabic_text">Arabic</string>
+    <string name="English_text">English</string>
+    <string name="chooseLanguage_text">Chooose Language</string>
+    <string name="language_text">Language</string>
+    <string name="Green_text">Green</string>
+    <string name="Red_text">Red</string>
+    <string name="Blue_text">Blue</string>
+    <string name="Student_text">Students</string>
+    <string name="AboutUs_text">About Us</string>
+    <string name="setting_text">Setting</string>
+    <string name="taskcategory_text">Task Category</string>
+
+    <string-array name="MyArraySpinner">
+        <item>"Choose Something"</item>
+        <item>"College"</item>
+        <item>"Personal"</item>
+    </string-array>
+
+    <string-array name="Grid">
+        <item>"Abdullah Zaghloul"</item>
+        <item>"Ziad Ehab"</item>
+        <item>"Ziad Ahmed"</item>
+        <item>"Pierre Wadie"</item>
+        <item>"Abdelrahman Amr"</item>
+        <item>"Ziad Abdelsalam"</item>
+        <item>"Mira Micheal"</item>
+    </string-array>
+
+</resources>

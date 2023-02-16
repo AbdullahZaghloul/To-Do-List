@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Movies/app/src/main/res/layout/activity_about_us.xml" value="0.2441123188405797" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Movies/app/src/main/res/layout/activity_first.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Movies/app/src/main/res/layout/activity_language.xml" value="0.2441123188405797" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Movies/app/src/main/res/layout/activity_main.xml" value="0.19869174161896974" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Movies/app/src/main/res/layout/activity_main2.xml" value="0.22010869565217392" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Movies/app/src/main/res/layout/activity_main21.xml" value="0.22010869565217392" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Movies/app/src/main/res/layout/activity_main3.xml" value="0.22010869565217392" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Movies/app/src/main/res/layout/activity_show_movie2.xml" value="0.23596014492753623" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Movies/app/src/main/res/layout/activity_show_movies.xml" value="0.22010869565217392" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Movies/app/src/main/res/layout/activity_update2.xml" value="0.23596014492753623" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Movies/app/src/main/res/layout/activity_update_movie.xml" value="0.23596014492753623" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Movies/app/src/main/res/menu/contextmenu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Movies/app/src/main/res/menu/menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Movies/app/src/main/res/menu/option_menu.xml" value="0.253125" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Movies/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.124" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/To Do List/app/src/main/res/layout/activity_about_us.xml" value="0.2441123188405797" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/To Do List/app/src/main/res/layout/activity_first.xml" value="0.2441123188405797" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/To Do List/app/src/main/res/layout/activity_image.xml" value="0.2441123188405797" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/To Do List/app/src/main/res/layout/activity_image2.xml" value="0.2441123188405797" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/To Do List/app/src/main/res/layout/activity_language.xml" value="0.2441123188405797" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/To Do List/app/src/main/res/layout/activity_main.xml" value="0.2441123188405797" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/To Do List/app/src/main/res/layout/activity_main2.xml" value="0.2441123188405797" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/To Do List/app/src/main/res/layout/activity_show_tasks.xml" value="0.2441123188405797" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/To Do List/app/src/main/res/layout/activity_show_tasks2.xml" value="0.2441123188405797" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/To Do List/app/src/main/res/layout/activity_update_task.xml" value="0.2441123188405797" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/To Do List/app/src/main/res/layout/activity_update_task2.xml" value="0.2441123188405797" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/To Do List/app/src/main/res/menu/contextmenu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/To Do List/app/src/main/res/menu/option_menu.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

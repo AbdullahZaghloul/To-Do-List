@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">To Do List</string>
+    <string name="TaskName_text">اسم المهمه</string>
+    <string name="TaskDescription_text">وصف المهمه</string>
+    <string name="addTask_text">اضافه مهمه</string>
+    <string name="showAllTasks_text">اظهار جميع المهام</string>
+    <string name="AllTasks_text">جميع المهام</string>
+    <string name="TaskDescriptionShowAll_text">وصف المهمه</string>
+    <string name="newTaskName_text">اسم المهمه الجديد</string>
+    <string name="newTaskDescription_text">وصف المهمه الجديد</string>
+    <string name="UpdateBtn_text">تحديث</string>
+    <string name="UpdateContext_text">تحديث</string>
+    <string name="DeleteContext_text">مسح</string>
+    <string name="Arabic_text">عربي</string>
+    <string name="English_text">انجليزي</string>
+    <string name="chooseLanguage_text">اختر لغه</string>
+    <string name="language_text">اللغه</string>
+    <string name="Green_text">اخضر</string>
+    <string name="Red_text">احمر</string>
+    <string name="Blue_text">ازرق</string>
+    <string name="Student_text">الطلاب</string>
+    <string name="AboutUs_text">تفاصيل</string>
+    <string name="setting_text">الاعدادات</string>
+    <string name="taskcategory_text">نوع المهمه</string>
+
+    <string-array name="MyArraySpinner">
+        <item>"اختار"</item>
+        <item>"كليه"</item>
+        <item>"شخصي"</item>
+    </string-array>
+
+</resources>
