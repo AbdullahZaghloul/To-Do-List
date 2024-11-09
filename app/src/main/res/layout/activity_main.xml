@@ -1,56 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="@drawable/image000000">
+    xmlns:tools="http://schemas.android.com/tools">
 
-    <EditText
-        android:id="@+id/task_name_id"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="115dp"
-        android:ems="10"
-        android:hint="@string/TaskName_text"
-        android:inputType="textPersonName"
-        android:textSize="20sp" />
+    <data>
 
-    <EditText
-        android:id="@+id/task_des_id"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="51dp"
-        android:layout_marginTop="251dp"
-        android:ems="10"
-        android:hint="@string/TaskDescription_text"
-        android:inputType="textPersonName"
-        android:textSize="20sp" />
+    </data>
 
-    <Button
-        android:id="@+id/btn_add_task"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="21dp"
-        android:layout_marginBottom="297dp"
-        android:text="@string/addTask_text" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_marginHorizontal="30dp"
+        tools:context=".UI.MainActivity">
 
-    <Button
-        android:id="@+id/btn_show_all_Tasks"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="17dp"
-        android:layout_marginBottom="298dp"
-        android:text="@string/showAllTasks_text" />
+        <TextView
+            android:id="@+id/main_header_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_header_personal"
+            android:layout_marginTop="70dp"
+            android:textSize="34sp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
 
-</RelativeLayout>
+        <EditText
+            android:drawableStart="@drawable/task_name"
+            android:drawablePadding="15dp"
+            android:id="@+id/main_taskName_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text"
+            android:layout_marginTop="100dp"
+            android:ems="10"
+            android:hint="@string/main_taskName"
+            android:inputType="text"
+            android:padding="20dp"
+            android:textSize="20sp" />
+
+        <EditText
+            android:drawableStart="@drawable/task_desc"
+            android:drawablePadding="15dp"
+            android:id="@+id/main_taskDesc_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edit_text"
+            android:ems="10"
+            android:hint="@string/main_taskDesc"
+            android:inputType="text"
+            android:padding="20dp"
+            android:textSize="20sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/main_addTask_btn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="80dp"
+            android:textColor="@color/white"
+            android:background="@drawable/btn"
+            android:textSize="18sp"
+
+            android:text="@string/main_addTask" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/main_ShowAllTasks_btn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="64dp"
+            android:textSize="18sp"
+            android:background="@drawable/btn"
+            android:text="@string/main_ShowAllTasks" />
+
+    </LinearLayout>
+</layout>
