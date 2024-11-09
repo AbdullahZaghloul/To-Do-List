@@ -44,5 +44,10 @@
     <string name="headerContext_text">حدد خيار</string>
     <string name="task_type_personal">شخصي</string>
     <string name="task_type_collage">كليه</string>
+    <string name="Task_added_Successfully">تم اضافه المهمه بنجاح</string>
+    <string name="name_description_is_empty">الاسم و الوصف فارغين!</string>
+    <string name="description_is_empty">الوصف فارغ!</string>
+    <string name="name_is_empty">الاسم فارغ!</string>
+    <string name="task_deleted">تم مسح المهمه.....</string>
 
 </resources>

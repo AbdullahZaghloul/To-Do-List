@@ -40,6 +40,11 @@
     <string name="headerContext_text">Select an Option</string>
     <string name="task_type_personal">personal</string>
     <string name="task_type_collage">collage</string>
+    <string name="Task_added_Successfully">Task Added Successfully</string>
+    <string name="name_description_is_empty"><![CDATA[name & description is empty!]]></string>
+    <string name="description_is_empty">description is empty!</string>
+    <string name="name_is_empty">name is empty!</string>
+    <string name="task_deleted">task Deleted.....</string>
 
 
 </resources>

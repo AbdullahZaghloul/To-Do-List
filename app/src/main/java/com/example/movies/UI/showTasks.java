@@ -2,7 +2,6 @@ package com.example.movies.UI;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.MenuItem;
 import android.widget.Toast;
 
@@ -44,16 +43,16 @@ public class showTasks extends AppCompatActivity {
         taskAdapter = new TaskAdapter();
         binding.showTasksTasksRecyRecycler.setAdapter(taskAdapter);
 
-        if(task_type.equals("personal")){
-            Log.d("personalll", "personalll");
+        if(task_type.equals(getString(R.string.task_type_personal))){
+            viewModel.getPersonalTask();
             viewModel.getPersonalmutableLiveData().observe(this, new Observer<List<TaskEntity>>() {
                 @Override
                 public void onChanged(List<TaskEntity> taskEntities) {
-                    Log.d("personalll", "personalll"+taskEntities.size());
                     taskAdapter.setList(taskEntities);
                 }
             });
-        }else if(task_type.equals("collage")){
+        }else if(task_type.equals(getString(R.string.task_type_collage))){
+            viewModel.getCollageTask();
             viewModel.getCollagemutableLiveData().observe(this, new Observer<List<TaskEntity>>() {
                 @Override
                 public void onChanged(List<TaskEntity> taskEntities) {
@@ -70,7 +69,7 @@ public class showTasks extends AppCompatActivity {
             case 121:
                 TaskEntity task = taskAdapter.removeTask(item.getGroupId());
                 viewModel.deleteTask(task);
-                showMessage("task Deleted.....");
+                showMessage(getString(R.string.task_deleted));
                 return true;
             case 122:
                 TaskEntity task2 =  taskAdapter.getTask(item.getGroupId());

@@ -24,9 +24,9 @@ public interface Task_Dao {
     Completable updateTask(TaskEntity task);
 
 
-    @Query("select * from `task table` where type = 'collage' order by id asc")
+    @Query("select * from `task table` where type = 'collage' or type = 'كليه' order by id asc")
     Flowable<List<TaskEntity>> getCollageTask();
 
-    @Query("select * from `task table` where type = 'personal' order by id asc")
+    @Query("select * from `task table` where type = 'personal' or type = 'شخصي' order by id asc")
     Flowable<List<TaskEntity>> getPersonalTask();
 }

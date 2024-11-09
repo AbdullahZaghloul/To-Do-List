@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Spinner;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,7 +15,6 @@ import com.example.movies.databinding.ActivityFirstBinding;
 
 public class first_Activity extends AppCompatActivity {
 
-    Spinner my;
     ActivityFirstBinding binding;
 
     @Override

@@ -25,8 +25,7 @@ public class TaskViewModel extends AndroidViewModel {
         super(application);
         TaskDatabase taskDatabase = TaskDatabase.getInstance(application);
         taskDao = taskDatabase.taskDao();
-        getPersonalTask();
-        getCollageTask();
+
     }
 
     public void getPersonalTask() {

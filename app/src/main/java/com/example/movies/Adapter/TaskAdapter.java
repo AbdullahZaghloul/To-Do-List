@@ -1,6 +1,5 @@
 package com.example.movies.Adapter;
 
-import android.util.Log;
 import android.view.ContextMenu;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -35,11 +34,10 @@ public class TaskAdapter extends RecyclerView.Adapter<TaskAdapter.TaskViewHolder
 
     @Override
     public void onBindViewHolder(@NonNull TaskViewHolder holder, int position) {
-        Log.d("taskNam", tasks.get(position).getName());
         holder.name.setText(tasks.get(position).getName());
         holder.desc.setText(tasks.get(position).getDesc());
 
-        holder.cardView.setOnClickListener(new View.OnClickListener() {
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if(holder.desc.getVisibility() == View.GONE){
@@ -86,6 +84,7 @@ public class TaskAdapter extends RecyclerView.Adapter<TaskAdapter.TaskViewHolder
         @Override
         public void onCreateContextMenu(ContextMenu contextMenu, View view, ContextMenu.ContextMenuInfo contextMenuInfo) {
             contextMenu.setHeaderTitle(R.string.headerContext_text);
+            contextMenu.setHeaderIcon(R.drawable.context_menu_header);
             contextMenu.add(this.getAdapterPosition(),121,0,R.string.DeleteContext_text);
             contextMenu.add(this.getAdapterPosition(),122,1,R.string.UpdateContext_text);
 

@@ -40,7 +40,7 @@ public class language extends AppCompatActivity {
 
     }
 
-    @SuppressWarnings("deprecation")
+//    @SuppressWarnings("deprecation")
     public void setLocale(String lang) {
         Locale myLocale = new Locale(lang);
 
@@ -52,19 +52,5 @@ public class language extends AppCompatActivity {
         startActivity(refresh);
     }
 
-/*         "en" = English
-            "hi" =Hindi
-            "fr" =French
-            "it" =Italian
-            "de" =German
-            "es" =Spanish
-            "ja" =Japanese
-            "ko" =Korean
-            "nl" =Dutch
-            "pt" =Portuguese
-            "ru" =Russian
-            "zh" =Chinese
-            "ar" = arabic
 
-   */
 }

@@ -36,17 +36,17 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if(binding.mainTaskNameEt.getText().toString().isEmpty() && binding.mainTaskDescEt.getText().toString().isEmpty()){
-                    Toast.makeText(MainActivity.this, "name & description is empty!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, getString(R.string.name_description_is_empty), Toast.LENGTH_SHORT).show();
                 }else if(binding.mainTaskDescEt.getText().toString().isEmpty()){
-                    Toast.makeText(MainActivity.this, "description is empty!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, getString(R.string.description_is_empty), Toast.LENGTH_SHORT).show();
                 } else if (binding.mainTaskNameEt.getText().toString().isEmpty()) {
-                    Toast.makeText(MainActivity.this, "name is empty!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, getString(R.string.name_is_empty), Toast.LENGTH_SHORT).show();
                 }
                 else {
                     viewModel.insertTask(new TaskEntity(binding.mainTaskNameEt.getText().toString()
                             , binding.mainTaskDescEt.getText().toString()
                             , task_type));
-                    Toast.makeText(MainActivity.this,"Task Addes Successfully",Toast.LENGTH_LONG).show();
+                    Toast.makeText(MainActivity.this, getString(R.string.Task_added_Successfully),Toast.LENGTH_LONG).show();
                 }
 
             }
